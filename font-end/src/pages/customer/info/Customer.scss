@@ -1,0 +1,212 @@
+#customer {
+    width: 100vw;
+    height: 700px;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    position: relative;
+    // display: flex;
+    #customer__main{
+        width: 60%;
+        // float: right;
+    //    position: absolute;
+        margin-left: 450px;
+        // margin-bottom: 30px;
+        margin-top: 90px;
+        padding-bottom: 40px;
+        padding-left: 2%;
+        min-height: 300px;
+        h1 {
+            margin-right: 25px;
+            color: #e31837;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: 900;
+        }
+        p {
+            font-size: 16px;
+        }
+        #infor--customer {
+            margin-bottom: 50px;
+            height: 200px;
+            #title--cus {
+                font-size: 18px;
+                font-weight: 900;
+                background: #ffc522;
+                border: 1px solid #f5f1e6;
+                margin-bottom: 0 !important;
+                border-bottom: none !important;
+                border-radius: 6px 6px 0 0;
+                height: 60px;
+                display: flex;
+                align-items: center;
+               
+               
+            }
+            #content--cus{
+                padding: 18px;
+                // border: 1px solid #f5f1e6;
+                border-top: none;
+                border-radius: 0 0 6px 6px;
+                clear: left;
+                float: left;
+                width: 48%;
+                border-right: 2px solid #f5f1e6;
+                
+
+                #content--infor{
+                    clear: left;
+                    // width: 48%;
+                    display: inline-block;
+                    margin: 0 0 10px;
+                    #content--action{
+                        margin-top: 5px;
+                        // text-align: left;
+                        margin-left: -20px;
+                        font-size: 16px;
+    
+                        #left--action {
+                            // border-right: 2px solid #a6a6a6;
+                            content: '';
+                            display: inline-block;
+                            height: 15px;
+                            margin: 0 20px;
+                            // vertical-align: -2px;
+                        }
+
+                    }
+                    
+                }
+            }
+            #news--cus {
+                padding: 18px;
+                // border: 1px solid #f5f1e6;
+                border-top: none;
+                border-radius: 0 0 6px 6px;
+                float: left;
+                margin-left: 30px ;
+            }
+        }
+        #location--customer {
+            #title--cus {
+                font-size: 18px;
+                font-weight: 900;
+                background: #ffc522;
+                border: 1px solid #f5f1e6;
+                margin-bottom: 0 !important;
+                border-bottom: none !important;
+                border-radius: 6px 6px 0 0;
+                height: 60px;
+                display: flex;
+                align-items: center;
+
+                
+               
+            }
+        }
+
+    }
+    #customer__navbar {
+        width: 25.3%;
+        padding-right: 6.6%;
+        float: left;
+        margin-top: -520px;
+        margin-left: 10px;
+        text-align: left;
+        .yourAccount{
+            width: auto;
+            position: relative;
+            height: auto;
+            clip: unset;
+            margin: 0;
+            background: #FFDE94;
+            border-left: 6px solid transparent;
+            display: block;
+            padding: 25px 18px 10px 15px;
+            border-radius: 6px 6px 0 0;
+
+        }
+        .inforAccount {
+            background: #FFDE94;
+            padding-top: 0;
+            border-radius: 0 0 6px;
+            padding: 15px 0;
+            .inforAccount__listInfor {
+                margin: 0;
+                padding: 0;
+                list-style: none none;
+                .inforAccount__listInfor--current{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .current__text{
+                        text-transform: uppercase;
+                        font-family: 'MergeBlack',sans-serif;
+                        color: #e31837;
+                        border-left: 6px solid #e31837;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;
+                        display: block;
+                    }
+                }
+                .inforAccount__listInfor--buy{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .buy__text{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;border-left: 6px solid transparent;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                        cursor: pointer;
+
+                    }
+                }
+                .inforAccount__listInfor--buy:hover {
+                    background-color: #E8E8E8;
+                }
+                .inforAccount__listInfor--delivery{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .delivery__text{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;
+                        border-left: 6px solid transparent;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                        cursor: pointer;
+
+
+                    }
+                }
+                .inforAccount__listInfor--delivery:hover{
+                    background-color: #E8E8E8;
+                }
+                .inforAccount__listInfor--sale{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .sale__text{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;
+                        border-left: 6px solid transparent;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+                        cursor: pointer;
+
+
+                    }
+                }
+                .inforAccount__listInfor--sale:hover{
+                    background-color: #E8E8E8;
+                }
+            }
+        }
+    }
+}

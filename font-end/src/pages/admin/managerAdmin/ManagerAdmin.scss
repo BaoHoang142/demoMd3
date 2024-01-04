@@ -1,0 +1,108 @@
+#admin {
+    width: 100vw;
+    height:1500px;
+    height: auto;
+    margin-top: 700px;
+    margin-bottom: 10px;
+    position: relative;
+    
+    background-color: #e31837;
+    #admin__navbar {
+        width: 25.3%;
+        padding-right: 6.6%;
+        float: left;
+        margin-top: -550px;
+        margin-left: 190px;
+        text-align: left;
+        .managerAdminAccount{
+            width: auto;
+            position: relative;
+            height: auto;
+            clip: unset;
+            margin: 0;
+            background: #FFDE94;
+            border-left: 6px solid transparent;
+            display: block;
+            padding: 25px 18px 10px 15px;
+            border-radius: 6px 6px 0 0;
+
+        }
+        .inforManagerAdminAccount {
+            background: #FFDE94;
+            padding-top: 0;
+            border-radius: 0 0 6px;
+            padding: 15px 0;
+            .inforManagerAdminAccount__listInfor {
+                margin: 0;
+                padding: 0;
+                list-style: none none;
+                .inforManagerAdminAccount__listInfor--current{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .inforManagerAdminAccount--current__text{
+                        text-transform: uppercase;
+                        font-family: 'MergeBlack',sans-serif;
+                        color: #e31837;
+                        border-left: 6px solid #e31837;
+                        font-size: 19px;
+                        padding: 10px 18px 10px 15px;
+                        display: block;
+                    }
+                }
+                .inforManagerAdminAccount__listInfor--buy{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .inforManagerAdminAccount--buy__text{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;border-left: 6px solid transparent;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+
+                    }
+                }
+                .inforManagerAdminAccount__listInfor--buy:hover {
+                    background-color: #E8E8E8;
+                }
+                .inforManagerAdminAccount__listInfor--delivery{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .inforManagerAdminAccount--delivery__text{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;
+                        border-left: 6px solid transparent;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+
+                    }
+                }
+                .inforManagerAdminAccount__listInfor--delivery:hover{
+                    background-color: #E8E8E8;
+                }
+                .inforManagerAdminAccount__listInfor--sale{
+                    margin-top: 0;
+                    margin: 3px 0 0;
+                    .inforManagerAdminAccount--sale__text{
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        padding: 10px 18px 10px 15px;
+                        border-left: 6px solid transparent;
+                        display: block;
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 700;
+
+                    }
+                }
+                .inforManagerAdminAccount__listInfor--sale:hover:hover{
+                    background-color: #E8E8E8;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+/* PC */
+@media (max-width: 1260px) {
+    #page-warpper {
+        display: inline;
+        #page-header {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .menu-icon {
+                font-size: 40px;
+                color: #fff;
+                font-weight: 900;
+                // margin-top: 30px;
+                margin-left: 80px;
+                cursor: pointer;
+                display: block;
+            }
+            #show-menu {
+                display: none;
+            }
+            #panel--warpper {
+                border: none;
+                #panel--header {
+                    display: none;
+                  }
+            }
+            #header--content {
+                #colum--left {
+                    margin-left: 80px;
+                    #img--logo {
+                        width: 60px;
+                        height: 60px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            display:block !important;
+                        }
+                    }
+                }
+                #colum--mid {
+                    #mid--nav {
+                       display: none;
+
+                        #nav--menu {
+                            background-color: rgb(53,53,53);
+                            width: 200px;
+                            text-align: center;
+                        height: 800px;
+                        margin-left: -600px;
+                        margin-top: 900px;
+                        display: inline-block;
+                            #about {
+                                display: block;
+                                // margin-left: 25px;
+                            }
+                            #menu {
+                                display: block;
+
+
+                            }
+                            #sale {
+                                display: block;
+
+
+                            }
+                            #news {
+                                display: block;
+
+
+                            }
+                            #store {
+                                display: block;
+
+
+                            }
+                            #contact {
+                                display: block;
+
+
+                            }
+                            #jobs {
+                                display: block;
+
+
+                            }
+                        }
+                    }
+                }
+                #colum--right {
+                    float: right;
+                    margin-right: -150px;
+                    #hotline{
+                        width:200px;
+                        height: 50px;
+                        display: block !important;
+                            #imgA {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                        
+                    }
+                    #pickup {
+                        margin-left: 40px;
+                    }
+                }
+            }
+            #show-menu:checked ~  #header--content  #colum--mid  #mid--nav{
+                display: block;
+            }   
+        }
+    }
+   
+  }
+/* Table */
+@media (min-width:740px) and (max-width:1023px) {
+
+}
+/* Mobile */

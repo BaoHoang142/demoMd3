@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+#page-warpper {
+    margin: 0;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.42857143;
+    color: #333;
+    width: 100vw;
+    overflow: scroll !important;
+    // background-color: #e31837 ;
+    .menu-icon {
+        display: none;
+    }
+    #show-menu {
+        display: none;
+    }
+    #page-header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+        background-color: #e31837 ;
+         #panel--warpper{
+            border-top: 8px solid #ffc522;
+            color: #000;
+             #panel--header {
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                height: 34px;
+                width: auto;
+                max-width: 600px;
+                margin-left: auto;
+                background: #ffc522 ;
+                position: relative;
+                margin-top: -7px;
+                padding: 0 70px 0 10px;
+                #circle{
+                    position: absolute;
+                    top: 0;
+                    left: -50px;
+                    height: 34px;
+                    width: 100px;
+                    // background-color: #333;
+                    background:url(../../../assets/imgs/duong-cong.png) center no-repeat ;
+                    background-size: cover;
+                    overflow: hidden;
+                    display: block;
+                }
+                #switcher--language {
+                    margin-right: 60px;
+                    display: inline-block;
+                    margin-top: 0;
+                    
+                    #switcher--label {
+                        border: 0;
+                        clip: rect(0,0,0,0);
+                        height: 1px;
+                        margin: -1px;
+                        overflow: hidden;
+                        padding: 0;
+                        position: absolute;
+                        width: 1px;
+                    }
+                    #switcher--option {
+                        display: inline-block;
+                        position: relative;
+                        
+                        #switcher--current {
+                            padding-right: 13px;
+                            border-right: 1px solid #e31837 ;
+                            display: inline-block;
+                            #view--default{
+                                display: block;
+                                line-height: 22px;
+                                color: #e31837;
+                                
+                                #language--VN{
+                                    height: 17px;
+                                    width: 17px;
+                                    display: block;
+                                    float: left;
+                                    margin-right: 5px;
+                                    margin-top: 3px;
+                                    border-radius: 50%;
+                                    background: url(../../../assets/imgs/logo-VN.png) no-repeat center center;
+                                    border: 1px solid #fff;
+                                }
+                                
+                            }
+                        }
+                        #switcher--list {
+                            padding-left: 10px;
+                            display: inline-block;
+                            #view--EN {
+                                display: block;
+                                line-height: 22px;
+                                #language--EN {
+                                    height: 17px;
+                                    width: 17px;
+                                    display: block;
+                                    float: left;
+                                    margin-right: 5px;
+                                    margin-top: 3px;
+                                    border-radius: 50%;
+                                    background: url(../../../assets/imgs/logo-EN.png) no-repeat center center;
+                                    border: 1px solid #fff;
+
+                                }
+                                
+                            }
+                        }
+                    }
+                    
+                }
+                #switcher--cart{
+                    margin-right: 60px;
+                    display: inline-block;
+                    margin-top: 0;
+                    order: 1;
+                    display: flex;
+                    align-items: center;
+                    #icon--cart{
+                        padding: 0;
+                        margin-right: 5px;
+                        // margin-top: -6px;
+                        font-size: 13px;
+                        width: 21px;
+                        height: 21px;
+                        display: inline-block;
+                        text-align: center;
+                        line-height: 18px;
+                        box-sizing: border-box;
+                        cursor: pointer;
+                    }
+                    #cart--text{
+                        color: #000;
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        letter-spacing: 0.15px;
+                        font-weight: 700;
+                    }
+                }
+                #check--log{
+                    margin: 0;
+                    padding: 0;
+                    list-style: none none;
+                    // margin-left: 0;
+                    order: 3;
+                    display: inline-block;
+                    margin-block-start: 1em;
+                    margin-block-end: 1em;
+                    margin-inline-start: 0px;
+                    margin-inline-end: 0px;
+                    // padding-inline-start: 40px;
+                    display: flex;
+                    align-items: center;
+                    #user--icon {
+                        font-size: 14px;
+                        margin: 0 0 0 5px;
+                        display: inline-block;
+                        vertical-align: top;
+                        #a--login {
+                            color: #000;
+                            text-decoration: none;
+                            display: inline-block;
+                            line-height: 21px;
+                            text-transform: uppercase;
+                            font-size: 1.3rem;
+                            #icon--user{
+                                // font-size: 13px;
+                                width: 21px;
+                                height: 21px;
+                                display: inline-block;
+                                margin-right: 0px;
+                                box-sizing: border-box;
+                                background-size: contain;
+                                background:url(../../../assets/imgs/icon-user.png) no-repeat center center ;
+                                cursor: pointer;
+                                vertical-align: middle;
+                                // margin-top: 6px;
+                            }
+                        }
+                        
+                            
+                    }
+                    
+                }
+                #register {
+                    margin-left: 0;
+                    font-size: 14px;
+                    margin: 0 0 0 5px;
+                    display: inline-block;
+                    vertical-align: top;
+                    #a--register{
+                        color: #000;
+                        text-decoration: none;
+                        cursor: pointer;
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 15px;
+                        
+                    }
+                }
+                #notetick {
+                    display: inline-block;
+                    margin: 0 -1px 0 4px;
+                    color: #000;
+                    font-size: 1.1rem;
+                }
+                #login{
+                    font-size: 14px;
+                    margin: 0 0 0 5px;
+                    display: inline-block;
+                    vertical-align: top;
+                    #a--login{
+                        color: #000;
+                        text-decoration: none;
+                        cursor: pointer;
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        #header--content{
+            padding-top: 0;
+            padding-bottom: 0;
+            position: static;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            max-width: 1850px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            #colum--left{
+                width: 10%;
+                float: flex;
+                #img--logo {
+                    text-align: center;
+                    margin-top: -30px;
+                    #a--logo {
+                        margin: 0;
+                        padding: 0;
+                        max-width: 50%;
+                        position: relative;
+                        img {
+                            max-height: inherit;
+                            margin: 10px auto;
+                            max-width: 90px;
+                            display: block;
+                            height: auto;
+                            border: 0;
+                        }
+                        
+                    }
+                }
+                
+               
+            }
+            #colum--mid {
+                width: 70%;
+                #mid--nav{
+                    margin-bottom: 0;
+                    #nav--menu {
+                        display: block;
+                        list-style: none;
+                        text-align: left;
+                        margin-bottom: 0;
+                        padding-top: 0;
+                        padding-bottom: 0;
+                        padding-left: 0;
+                        position: static;
+                        font-size: 12px;
+                        
+                        #home {
+                            display: inline-block;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            // font-size: 1.2rem;
+                            padding: 20px 0 0 0;
+                            margin-bottom: 0;
+                            position: static;
+                            border-radius: 10px 10px 0 0;
+                           
+                            ;  
+                            #home--text{
+
+                                display: block;
+                                color: #e31837;
+                                padding: 7px 10px;
+                                border-radius: 10px 10px 0 0;  
+                                text-decoration: none;
+                                background-color: #F4D2D6
+                                
+
+                            }
+                           
+                        }
+                        // #home:hover{
+                        //     transform: scale(1.5) skew(-1deg) translate(2px,1px);
+                        //     -webkit-transform: scale(1.2) skew(-1deg) translate(2px,1px);
+                        //     -moz-transform: scale(1.2) skew(-1deg) translate(2px,1px);
+                        // }
+                        #menu {
+                            display: inline-block;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            // font-size: 1.2rem;
+                            padding: 20px 0 0 0;
+                            margin-bottom: 0;
+                            position: static;
+                            border-radius: 10px 10px 0 0;
+                            #text--menu{
+                                display: inline-block;
+                                padding: 12px 10px;
+                                border-radius: 10px 10px 0 0;  
+                                text-decoration: none;
+                                 color: #fff ;
+                                height: 60px;
+                            }
+                            #text--menu:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                        }
+                        #about, #sale,#service,#contact, #news,#store,#jobs {
+                            display: inline-block;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            // font-size: 1.2rem;
+                            padding: 20px 0 0 0;
+                            margin-bottom: 0;
+                            position: static;
+                            border-radius: 10px 10px 0 0;
+                            #text--about, #text--sale,#text--service,#text--contact,#text--news,#text--menu,#text--store,#text--jobs {
+                                display: inline-block;
+                                padding: 12px 10px;
+                                border-radius: 10px 10px 0 0;  
+                                text-decoration: none;
+                                 color: #fff ;
+                                height: 60px;
+
+
+                            }
+                            #text--about:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                            #text--sale:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                            #text--service:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                            #text--contact:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                            #text--news:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                           
+                            #text--store:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                            #text--jobs:hover{
+                                background-color: #F4D2D6;
+                                color: #e31837;
+                            }
+                            
+
+                        }
+                        .active  {
+                            background-color: #F4D2D6;
+                            color: #e31837 !important;
+                            padding: 7px 10px 32px 10px;
+                            border-radius: 10px 10px 0 0;  
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            #colum--right{
+                text-align: right;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                column-gap: 25px;
+                width: 20%;
+                #none{
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    position: relative;
+                    border-radius: 10px;
+                }
+                #hotline{
+                    order: 1;
+                    margin-top: 0;
+                    float: right;
+                    padding-right: 15px;
+                    box-sizing: border-box;
+                    text-align: right;
+                    // width: 52.68px;
+                    // height: 20px;
+                    #a--hotline{
+                        text-decoration: none;
+                        img {
+                            max-width: 100%;
+                            height: auto;
+                            border: 0;
+                        }
+                    }
+                }
+                #pickup {
+                    #a--pickup{
+                        background-color: #ffc522;
+                        border-radius: 20px;
+                        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.25);
+                        min-width: 111px;
+                        height: 40px;
+                        color: #000;
+                        font-size: 1.2rem;
+                        font-weight: 800;
+                        text-align: center;
+                        line-height: 40px;
+                        display: inline-block;
+                        text-decoration: none;
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
